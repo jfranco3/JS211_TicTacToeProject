@@ -96,7 +96,7 @@ const diagonalWin = () => {
 };
 
 const checkForWin = () => {
-  // checks for all 3 win conditions
+  // this code checks for all 3 win conditions
   if (horizontalWin() || verticalWin() || diagonalWin()) {
     return true;
   } else {
